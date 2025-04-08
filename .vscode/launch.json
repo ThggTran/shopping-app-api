@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach to Docker (Django)",
+        "type": "debugpy",
+        "request": "attach",
+        "connect": {
+          "host": "localhost",
+          "port": 5678
+        },
+        "pathMappings": [
+          {
+            "localRoot": "C:/Users/zetze/Documents/django_project/shopping-app-api/app",
+            "remoteRoot": "/app"
+          }
+        ]
+      }
+    ]
+  }
+  
